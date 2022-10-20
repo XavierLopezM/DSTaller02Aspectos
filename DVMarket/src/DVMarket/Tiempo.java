@@ -7,11 +7,11 @@ public class Tiempo {
     
      public static String fechaDeHoy() {
         Calendar fecha = Calendar.getInstance();
-        int aÃ±o = fecha.get(Calendar.YEAR);
+        int año = fecha.get(Calendar.YEAR);
         int mes = fecha.get(Calendar.MONTH);
         int dia = fecha.get(Calendar.DAY_OF_MONTH);
 
-        String laFecha = dia + "/" + (mes + 1) + "/" + aÃ±o;
+        String laFecha = dia + "/" + (mes + 1) + "/" + año;
         return laFecha;
     }
 
